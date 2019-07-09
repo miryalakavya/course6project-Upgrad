@@ -1,15 +1,17 @@
 //js code for modal of pop of signin and sign up
 var modal = document.getElementsByClassName("modal")[0];
 var modal1 = document.getElementsByClassName("modal")[1];
+var modal2 = document.getElementsByClassName("modal")[2];
 
 // js code for button that opens the modal
 var button = document.getElementsByClassName("topBtn")[1];
 var button1 = document.getElementsByClassName("topBtn")[0];
+var button2 = document.getElementById("createPost");
 
 // js code for <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 var span1 = document.getElementsByClassName("close")[1];
-
+var span2 = document.getElementsByClassName("close")[2];
 
 // When user  clicks on  button, opening would be the modal 
 button.onclick = function() {
@@ -17,6 +19,9 @@ button.onclick = function() {
 }
 button1.onclick = function() {
   modal1.style.display = "block";
+}
+button2.onclick = function(){
+  modal2.style.display = "block";
 }
 
 // When the user clicks on <span> (x), closing the modal
@@ -26,6 +31,10 @@ span.onclick = function() {
 span1.onclick = function() {
   modal1.style.display = "none";
 }
+span2.onclick = function()
+{
+  modal2.style.display = "none";
+}
 
 
 // When the user clicks anywhere outside the modal,closes the modal
@@ -34,6 +43,15 @@ modal.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+}
+modal2.onclick = function(event) {
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+}
+function remove()
+{
+  modal2.style.display = "none";
 }
 window.onclick = function(event) {
   if (event.target == modal1) {
