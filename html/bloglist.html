@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href='..\css\bloglist.css' rel='stylesheet' type='text/css'>    
+    <link href='..\css\header.css' rel='stylesheet' type='text/css'>
+    <link href='..\css\font.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="..\font-awesome-4.7.0/css/font-awesome.min.css">
+    <style>
+    </style>
+</head>
+<body>
+    <div id="main-container-div">
+          <!-- Insert code for Sign Up, Sign In button here. 
+                 Add code for "ScriBBler" heading and the sub-heading -->
+        <div class="header">
+                <input onclick="signup()" class="topBtn" type="button" value="Sign Up"> 
+                <input onclick="signin()" class="topBtn" type="button" value="Sign In">
+                <a href="C:/Users/Administrator/Desktop/Html code/Project_Stub_File/stub/index.html" id="webpageTitle" class="logoTitle">ScriBBler</a>
+                <p class="middleTxt">Explore, Imagine, Create</p> 
+
+        </div>
+    </div>
+    <div>
+    <div id="myMdl" class="mdl">
+            <div class="mdl-cntent">
+                    <span class="closeOne">&times;</span>
+                    <div class="modalHeader">
+                    <h3 class="modalTitle">Welcome Back</h3>
+                    <hr>
+                    </div>
+                    <div class="modal-body">
+                            <form>
+                                    <div>
+                                    <span class="Username">Username</span>
+                                      <input class="inputField" type="text" placeholder="Enter Username" required>
+                                    </div>
+                                     <div>              
+                                      <label for="firstname">Password</label>
+                                      <input class="inputField" type="password" placeholder="Enter Password" required>
+                                    </div>
+                                    <button type="submit" class="btnColor">Sign In</button>
+                                    <div class="not">Not a member?
+                                        <span class="sign">Signup</span>
+                                    </div>
+                            </form>   
+                          
+                  </div>
+                  </div>
+                </div>
+
+        <div>
+                <div>
+                        <div class="mdl">
+                                <div class="modalCntent">
+                                      <span class="closeOne">&times;</span>
+                                      <div class="modalHeader">
+                                              <h3 class="modalTitle">Get Started</h3>
+                                              <hr>
+                                      </div>
+                                      <div class="modalBody">
+                                              <form>
+                                                      <div>
+                                                              <label>Full Name</label>
+                                                              <input class="inputField" type="text" placeholder="Enter Full Name" required>
+                                                      </div>
+                                                      <div>
+                                                              <label>Username</label>
+                                                              <input class="inputField" type="text" placeholder="Enter Username" required>
+                                                      </div>
+                                                      <div>
+                                                              <label>Password</label>
+                                                              <input class="inputField" type="password" placeholder="Enter password" required>
+                                                      </div>
+                                                      <div>
+                                                              <label>Confirm Password</label>
+                                                              <input class="inputField" type="password" placeholder="Confirm Password" required>
+                                                      </div>
+                                                      <button class="btnColor" type="submit">Sign Up</button>
+                                              </form>
+              
+                                      </div>                                       
+                                </div>
+                        </div>
+        </div>
+
+
+        <div class="allPostsContainer">
+                <div class="post" id="fpost">
+                    <div class="post-left">
+                        <p class="post-username">Jimi</p>
+                    </div>
+                    <div class="post-content">
+                        
+                        <!-- Insert code for Trash icon here -->
+                        <i id="myBtn" class="fa fa-trash" style="font-size: 24px" aria-sort="ascending"></i>
+                        <span class="post-title">Hello there ! This is Post 1. </span>
+                        <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had ever ventured before. His boundless drive, technical ability and creative application of such effects as distortion forever transformed the sound of rock and roll. While creating his unique musical voice and guitar style, Hendrix synthesized diverse genres, including blues, R&B, soul, British rock, American folk music, 1950s rock and roll, psychedelic and jazz.</p>
+                        <!-- Insert code for ... icon here -->
+                        <i id="dots" class="fa fa-ellipsis-h" onclick="window.location.href='C:/Users/Administrator/Desktop/Html code/Project_Stub_File/stub/html/post.html'" style="font-size:24px"></i>
+            
+                    </div>
+                        
+                </div>
+                <div class="post" id="spost">
+                <div class="post-left">
+                    <p class="post-username">Jimi</p>
+                </div>
+                <div class="post-content">
+                    
+                    <!-- Insert code for Trash icon here -->
+                    <i id="myBtn" class="fa fa-trash" style="font-size: 24px" aria-sort="ascending"></i>
+                    <span class="post-title">Hello there ! This is Post 2. </span>
+                    <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had ever ventured before. His boundless drive, technical ability and creative application of such effects as distortion forever transformed the sound of rock and roll. While creating his unique musical voice and guitar style, Hendrix synthesized diverse genres, including blues, R&B, soul, British rock, American folk music, 1950s rock and roll, psychedelic and jazz.</p>
+                    <!-- Insert code for ... icon here -->
+                    <i id="dots" class="fa fa-ellipsis-h" onclick="window.location.href='C:/Users/Administrator/Desktop/Html code/Project_Stub_File/stub/html/post.html'" style="font-size:24px"></i>
+            
+                </div>
+            </div>
+                <div class="post" id="tpost">
+                    <div class="post-left">
+                        <p class="post-username">Jimi</p>
+                    </div>
+                    <div class="post-content">
+            
+                        <!-- Insert code for Trash icon here -->
+                        <i id="myBtn" class="fa fa-trash" style="font-size: 24px" aria-sort="ascending"></i>
+            
+                            <span class="post-title">Hello there ! This is Post 3. </span>
+                            <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had ever ventured before. His boundless drive, technical ability and creative application of such effects as distortion forever transformed the sound of rock and roll. While creating his unique musical voice and guitar style, Hendrix synthesized diverse genres, including blues, R&B, soul, British rock, American folk music, 1950s rock and roll, psychedelic and jazz.</p>
+            
+                        <!-- Insert code for ... icon here -->
+                        <i id="dots" class="fa fa-ellipsis-h" onclick="window.location.href='C:/Users/Administrator/Desktop/Html code/Project_Stub_File/stub/html/post.html'" style="font-size:24px"></i>
+            
+            
+                    </div>
+                   
+                </div>
+                <div class="post" id="fopost">
+                    <div class="post-left" id="post-right">
+                        <p class="post-username">Jimi</p>
+                    </div>
+                    <div class="post-content">
+            
+                        <!-- Insert code for Trash icon here -->
+                        <i id="myBtn" class="fa fa-trash" style="font-size: 24px" aria-sort="ascending"></i>
+            
+                            <span class="post-title">Hello there ! This is Post 4. </span>
+                            <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had ever ventured before. His boundless drive, technical ability and creative application of such effects as distortion forever transformed the sound of rock and roll. While creating his unique musical voice and guitar style, Hendrix synthesized diverse genres, including blues, R&B, soul, British rock, American folk music, 1950s rock and roll, psychedelic and jazz.</p>
+            
+                        <!-- Insert code for ... icon here -->
+                        <i id="dots" class="fa fa-ellipsis-h" onclick="window.location.href='C:/Users/Administrator/Desktop/Html code/Project_Stub_File/stub/html/post.html'" style="font-size:24px"></i>
+            
+            
+                    </div>
+                </div>
+            
+                <div class="post" id="postMiddle">
+                        <div class="post-left" id="post-center">
+                            <p class="post-username">Jimi</p>
+                        </div>
+                        <div class="post-content">
+            
+                            <!-- Insert code for Trash icon here -->
+                            <i id="myBtn" class="fa fa-trash" style="font-size: 24px" aria-sort="ascending"></i>
+            
+                                <span class="post-title">Hello there ! This is Post 5. </span>
+                                <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had ever ventured before. His boundless drive, technical ability and creative application of such effects as distortion forever transformed the sound of rock and roll. While creating his unique musical voice and guitar style, Hendrix synthesized diverse genres, including blues, R&B, soul, British rock, American folk music, 1950s rock and roll, psychedelic and jazz.</p>
+                            
+                            <!-- Insert code for ... icon here -->
+                            <i id="dots" class="fa fa-ellipsis-h" onclick="window.location.href='C:/Users/Administrator/Desktop/Html code/Project_Stub_File/stub/html/post.html'" style="font-size:24px"></i>
+            
+                        
+                        </div>
+                    </div>
+            
+                    <div>
+            
+                        <!-- The Modal -->
+                       <div id="myModal" class="modalThree">
+                           <!-- Insert code for delete modal here -->
+                        
+            
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            
+                            <div class="modal-body">
+                              <p class="sure">Are you sure you want to delete this post?</p>
+                              <button class="redColor" type="submit">Yes</button>
+                              <button class="greenColor" type="submit" onclick="remove()">No</button>
+                            </div>
+                            
+                          </div>
+            
+              
+                      </div>
+                    </div>
+                    
+                </div>
+  <script src="..\js\bloglist.js">  </script>
+    <script src="..\js\header.js"> </script>
+</body>
+
+</html>
