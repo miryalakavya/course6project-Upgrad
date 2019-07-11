@@ -176,6 +176,11 @@ background-size: 2000% 2000%;
     width: 100%;
     right: 25px;
 } 
+a{ /* changed*/
+  color: black; 
+  text-decoration: none;
+  font-weight: bold;
+}
 
 .mdl{
     display: none;
@@ -323,9 +328,9 @@ span.psw{
 }
 #dots
 {
-    margin-left: 380px;
-    cursor: pointer;
-    margin-top: 10px;
+  margin-left: 380px;
+  cursor: pointer;
+  margin-top: 10px;
 
 }
 
