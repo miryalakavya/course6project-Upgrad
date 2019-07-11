@@ -88,8 +88,8 @@ input.centreButtonTwo{
    margin: 15% auto;
    padding: 10px;
    border: 1px solid #888;
-   width: 20%; 
-   height: 45%;
+   width: 30%; /*changed */  
+   height: auto;
  }
  
  /* The Close Button */
@@ -116,7 +116,7 @@ h3
  .buttonColor
 {
     background-color:#4CAF50;
-    width: 300px;
+    width: 403px;/*changed */
     padding: 10px;
     cursor: pointer;
     font-weight: 500;
@@ -128,13 +128,28 @@ h3
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
 }
+.buttonColorOne{
+   background-color:#4CAF50;
+    width: 300px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 90%;
+    color: #fff;
+    float: right;                  
+    border: 0;
+    margin: 20px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+
+}
 .inputField
 {
     display: flex;
-    width: 280px;
+    width: 383px;/*changed */  
     padding: 10px;
     float: right;         
-    margin: 10px 0px 0px 0px;
+    /*changed */  
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f0ebeb;
     border: 0;
@@ -171,10 +186,12 @@ label
 .textarea
 {
     padding: 10px;
-    width: 94.5%;
+    width: 94%; /*changed */
     margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    /*changed */
+    /*changed */
+    background-color: #f0ebeb; /*changed */
+    border: 0;/*changed */
 }
 h1
 {
@@ -185,22 +202,22 @@ h1
 .red
 {
     background-color:red;
-    width: 300px;
+    width: 240px;/*changed */
     padding: 10px;
     cursor: pointer;
     font-weight: 500;
     font-size: 90%;
     color: #fff;
-    float: right;                  
+    float: left;    /*changed */              
     border: 0;
-    margin: 20px 0px 0px 0px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px 0px 0px; /*changed */  
     margin-bottom: 20px;
 }
 .inputField1
 {
     display: flex;
-    width: 585px;
+    width: 515px; /*changed */
     padding: 10px;
     float: right;         
     font-family: Arial, Helvetica, sans-serif;
@@ -211,12 +228,9 @@ h1
 }                 
 .modalContent {
    background-color: #fefefe;
-   margin: 15% auto;
+   margin: 10% auto; /*changed*/
    padding: 10px;
    border: 1px solid #888;
-   width: 20.2%;
-   height: 60%;
+   width: 30%;/*changed*/
+   height: 73%;/*changed*/
 }
-
-
-                                 
